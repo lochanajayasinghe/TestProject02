@@ -45,7 +45,7 @@ function App() {
       <h1>LSEG Prep Tracker</h1>
       
       {/* 3. We display the state variable here */}
-      <h2>Hours Studied: {hours}</h2>
+      <h2>Hours Studied: {setHours}</h2>
 
       {/* 4. When clicked, it runs our function */}
       <button onClick={addHour}>
